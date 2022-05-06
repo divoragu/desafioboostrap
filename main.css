@@ -35,3 +35,22 @@ header{
     background-image:linear-gradient(#83aef0, #0d6efd);
     max-width: 2560px;
 }
+footer{
+    background-image:linear-gradient(#0d6efd, #83aef0 ) ;
+    padding: 20px;
+
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+footer ul li a:visited{
+    text-decoration: none;
+    color: black;
+}
