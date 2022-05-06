@@ -43,7 +43,6 @@ footer{
 }
 footer ul{
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-around;
     list-style-type: none;
 }
@@ -81,14 +80,24 @@ form{
     flex-direction: column;
     justify-content: space-evenly;
     padding: 30px;
-    background-image:linear-gradient(#0d6efd, #83aef0 );
+    background-image:linear-gradient(#83aef0, #0d6efd);
     /* font-size: 11px; */
     border: 2px solid rgb(6, 42, 107);
 }
 article{
     padding: 20px;
 }
-img{
-    display: inline;
-    background-image:linear-gradient(#0d6efd, #83aef0 );
+.image{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    max-width: auto;
+    height: 427px;
+    background-image:linear-gradient(#83aef0, #0d6efd);
+}
+.image p{
+    font-size: 15px;
+    margin: 20px;
 }
